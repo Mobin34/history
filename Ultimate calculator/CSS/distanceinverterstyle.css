@@ -1,0 +1,126 @@
+.head {
+    display: flex;
+    background-color: mediumpurple;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 8vh;
+}
+
+.headanch {
+    text-decoration: none;
+    color: white;
+    margin: 2.5vh;
+    transition: color 0.3s;
+}
+
+
+.headanch:visited {
+    color: white;
+}
+
+.headanch:hover {
+    color: black;
+}
+.headanch:active {
+    color: rgb(87, 51, 159);
+    transition: color 0.15s;
+}
+
+#welcoming {
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+    display: block;
+    text-align: center;
+    color: mediumpurple;
+    font-size: 3.5rem;
+}
+
+
+
+
+
+
+.converter {
+    background-color: mediumpurple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+label {
+    margin: 0 0.35rem ;
+}
+/* .calcs {
+    background-color: mediumpurple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+} */
+
+
+button {
+    border: 7px solid rgb(90, 5, 160);
+    border-radius: 10%;
+    background-color: rgb(87, 51, 159);
+    color: white;
+    margin-bottom: 1rem;
+    transition: background-color 0.15s;
+}
+
+button:hover {
+    background-color: mediumpurple;
+    transition: box-shadow 0.15s;
+}
+
+button:active {
+    background-color: mediumpurple;
+    box-shadow: 0 0 0.25rem 0.5rem rgb(87, 51, 159);
+    transform: translateY(4px);
+}
+
+#reset {
+    z-index: 9999999;
+}
+input {
+    border-radius: 0.4rem;
+    margin: 0.5rem 0 0.5rem 0;
+    border: none;
+    transition: box-shadow 0.2s;
+    overflow: scroll;
+
+}
+
+input:focus {
+    box-shadow: 0 0 0 0.2rem rgb(87, 51, 159);
+    outline: 0;
+}
+
+#option {
+    text-decoration: none;
+    color: white;
+    margin-right: 0.4rem;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.foot {
+    background-color: mediumpurple;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 6vh;
+}
+
+#option:hover {
+    color: black;
+}
+
+#option:active {
+    color: rgb(87, 51, 159);
+    transition: color 0.15s;
+}

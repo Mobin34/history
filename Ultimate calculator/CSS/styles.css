@@ -1,0 +1,103 @@
+.head {
+    display: flex;
+    background-color: mediumpurple;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 8vh;
+}
+
+.headanch {
+    text-decoration: none;
+    color: white;
+    margin: 2.5vh;
+    transition: color 0.3s;
+}
+
+
+.headanch:visited {
+    color: white;
+}
+
+.headanch:hover {
+    color: black;
+}
+.headanch:active {
+    color: rgb(87, 51, 159);
+    transition: color 0.15s;
+}
+
+#toping {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 900;
+}
+#details {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#optdiv {
+    display: flex;
+    justify-content: center;
+}
+
+#optspan{
+    background-color: mediumpurple;
+    height: 4.5rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7.5rem;
+}
+
+#optionbut{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+#mathpic{
+    width: 100vw;
+    height: 20vh;
+    object-fit: cover;
+
+}
+
+figure{
+    overflow: hidden;
+    margin: 2rem 0 0 0;
+    
+}
+
+.foot{
+    background-color: mediumpurple;
+    width: 100vw;
+    height: 12vh;
+    position: fixed;
+    bottom: 0;
+}
+
+@media screen and (max-width:700px) {
+    .head {
+        height: 20vh;
+    }
+    nav {
+        display: grid;
+        grid-template-rows: 5vh 5vh;
+        grid-template-columns: 50vw 50vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

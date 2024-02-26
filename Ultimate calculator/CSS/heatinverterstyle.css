@@ -1,0 +1,122 @@
+.head {
+    display: flex;
+    background-color: mediumpurple;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 8vh;
+}
+
+.headanch {
+    text-decoration: none;
+    color: white;
+    margin: 2.5vh;
+    transition: color 0.3s;
+}
+
+
+.headanch:visited {
+    color: white;
+}
+
+.headanch:hover {
+    color: black;
+}
+.headanch:active {
+    color: rgb(87, 51, 159);
+    transition: color 0.15s;
+}
+
+
+
+
+
+.inpcont{
+    margin: 2rem 0.5rem;
+}
+
+.calcs {
+    background-color: mediumpurple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+#cel {
+    margin-left: 0.8rem;
+}
+#fer{
+    margin-left: 0.2rem;
+}
+
+#convert{
+    position: relative;
+}
+
+#kel {
+    margin-left: 1.2rem;
+}
+
+
+button {
+    border: 7px solid rgb(90, 5, 160);
+    border-radius: 10%;
+    background-color: rgb(87, 51, 159);
+    color: white;
+    margin-bottom: 1rem;
+    transition: background-color 0.15s;
+}
+
+button:hover {
+    background-color: mediumpurple;
+    transition: box-shadow 0.15s;
+}
+
+button:active {
+    background-color: mediumpurple;
+    box-shadow: 0 0 0.25rem 0.5rem rgb(87, 51, 159);
+    transform: translateY(4px);
+}
+
+#welcoming {
+    color: mediumpurple;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+#option {
+    text-decoration: none;
+    color: white;
+    margin-right: 0.4rem;
+    font-size: 1.5rem;
+}
+
+.foot {
+    background-color: mediumpurple;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 6vh;
+}
+
+#option:hover {
+    color: black;
+}
+
+input {
+    border-radius: 0.4rem;
+    border: none;
+    transition: box-shadow 0.2s;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0.2rem rgb(87, 51, 159);
+    outline: 0;
+}
+
+#resetbutt {
+    z-index: 9999999;
+}
