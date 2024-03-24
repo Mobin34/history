@@ -10,8 +10,8 @@ function convert() {
         km = m/1000;
         cm = m*100;
         mm = m*1000;
-        yrd = m*1.09361
-        mi = m*0.000621371
+        yrd = m*1.09361;
+        mi = m*0.000621371;
         document.getElementById("kmeter").value = km;
         document.getElementById("cmeter").value = cm;
         document.getElementById("mmeter").value = mm;
@@ -37,8 +37,8 @@ function convert() {
         m = cm/100;
         km = m/1000;
         mm = m*1000;
-        yrd = m*1.09361
-        mi = m*0.000621371
+        yrd = m*1.09361;
+        mi = m*0.000621371;
         document.getElementById("kmeter").value = km;
         document.getElementById("meter").value = m;
         document.getElementById("mmeter").value = mm;
@@ -50,8 +50,8 @@ function convert() {
         m = mm/1000;
         km = m/1000;
         cm = m*100;
-        yrd = m*1.09361
-        mi = m*0.000621371
+        yrd = m*1.09361;
+        mi = m*0.000621371;
         document.getElementById("kmeter").value = km;
         document.getElementById("cmeter").value = cm;
         document.getElementById("meter").value = m;
@@ -64,7 +64,7 @@ function convert() {
         km = m/1000;
         cm = m*100;
         mm = m*1000;
-        mi = m*0.000621371
+        mi = m*0.000621371;
         document.getElementById("kmeter").value = km;
         document.getElementById("cmeter").value = cm;
         document.getElementById("mmeter").value = mm;
@@ -73,11 +73,11 @@ function convert() {
     }
 
     else if (!isNaN(mi)) {
-        m = mi/0.000621371
+        m = mi/0.000621371;
         km = m/1000;
         cm = m*100;
         mm = m*1000;
-        yrd = m*1.09361
+        yrd = m*1.09361;
         document.getElementById("kmeter").value = km;
         document.getElementById("cmeter").value = cm;
         document.getElementById("mmeter").value = mm;
@@ -90,7 +90,7 @@ function convert() {
 
 
 function reset() {
-    document.getElementById("meter").value = ""
+    document.getElementById("meter").value = "";
     document.getElementById("kmeter").value = "";
     document.getElementById("cmeter").value = "";
     document.getElementById("mmeter").value = "";
